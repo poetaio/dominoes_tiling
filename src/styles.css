@@ -1,0 +1,39 @@
+html {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-wrapper {
+    padding: 0px 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    align-items: center;
+}
+
+.canvas_list {
+    display: flex;
+    max-width: 100%;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.canvas_list__item {
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
